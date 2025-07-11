@@ -1,0 +1,136 @@
+
+
+body {
+  margin: 0;
+  height: 1800px;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     
+  background-color: #faf6f6;
+}
+
+.center-box {
+  background: #f1efef;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 60px;
+}
+.image{
+  height: 300px;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 20px;
+  
+}
+.p{
+  font-family: 'Times New Roman', serif;
+  font-size: 13px;
+  color:grey;
+  margin-top: 20px;
+  margin-left: 300px;
+
+}
+.h4{
+  text-align: center;
+   color: rgb(108, 108, 108);
+   font-style: italic;
+}
+/* second div */
+.center-box2 {
+ background-color: lightgray;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.p2{
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  color: rgb(15, 15, 15);
+  text-align: center;
+}
+/* .destination-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #0077cc;
+} */
+
+.destination-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.destination-card {
+  margin-top: 30px;
+  background:white;
+  backdrop-filter: blur(8px);
+  border-radius: 30px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-8px);
+}
+
+.destination-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.destination-card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.destination-card p {
+  font-size: 14px;
+  color: #444;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+margin-top: 5px;
+  padding: 10px;
+  border-bottom: 2px solid #0077cc;
+  background: rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);      
+  -webkit-backdrop-filter: blur(10px); 
+
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a.active,
+.nav a:hover {
+  color: #0e0d0d;
+}

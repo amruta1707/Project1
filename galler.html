@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Paradise</title>
+  <link rel="stylesheet" href="I:\projet HTML\stylegaliry2.css">
+</head>
+<body>
+ 
+    <nav>
+      <ul class="nav">
+        <li><a href="I:\projet HTML\home.html">Home</a></li>
+        <li><a href="I:\projet HTML\destinationp.html">Destinations</a></li>
+        <li><a href="I:\projet HTML\aboutusp.html">About</a></li>
+        <li><a href="galler.html" class="active">Gallery</a></li>
+        <li><a href="I:\projet HTML\contact.html">Contact</a></li>
+        <li><a href="I:\projet HTML\bolgpa.html">Blog</a></li>
+      </ul>
+    </nav>
+
+  <header>
+    <h1>Explore Paradise</h1>
+    <p>Hotels, Cuisine, Adventures & More</p>
+  </header>
+
+  <!-- 🔹 Toggle Button -->
+  <button class="place-button" onclick="togglePlace('nagpur')">Kerala</button>
+  <section class="gallery-section">
+   <div class="gallery">
+        <div class="item"><img src="./gallery/munnar.jpg" alt="Suite Room"><p> Munnar</p></div>
+        <div class="item"><img src="./gallery/kumarakom.jpg" alt="Pool"><p>  Kumarakom</p></div>
+        <div class="item"><img src="./gallery/korala.jpg" alt="Bathroom"><p>Kovalam & Varkala</p></div>
+        <div class="item"><img src="./gallery/allepey.jpg" alt="Ocean"><p>Alleppey</p></div>
+      </div>
+    </section>
+
+  <!-- 🔸 Nagpur Section (Hidden initially) -->
+  <div id="nagpur" class="place-section">
+    
+    <!-- ✨ Discover Preview -->
+    <section class="place-preview">
+      <h2>✨ Discover Kerala</h2>
+      <p>Hotels, Food, Adventures & Local Attractions await you!</p>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/hotel1.jpg" alt="Suite Room"><p>Grand Hyatt Kochi Bolgatty</p></div>
+        <div class="item"><img src="./gallery/dining1.jpg" alt="Cuisine"><p>Dhe Puttu (Kochi)</p></div>
+        
+         <div class="item"><img src="./gallery/trekin1.jpg" alt="Hiking"><p>Trekking in the Western Ghats</p></div>
+      </div>
+      
+      <div class="see-more">⬇ Scroll down to see more</div>
+    </section>
+
+    <!-- 🔻 Full Gallery -->
+    <section class="gallery-section">
+      <h2>🏨 Hotels & Rooms</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/hotel1.jpg" alt="Suite Room"><p>Grand Hyatt Kochi Bolgatty (Kochi)</p></div>
+        <div class="item"><img src="./gallery/roomk1.jpg" alt="Pool"><p>Luxurious suite featuring living</p></div>
+        <div class="item"><img src="./gallery/hotel2k.jpg" alt="Bathroom"><p> Kumarakom Lake Resort (Kumarakom)</p></div>
+        <div class="item"><img src="./gallery/roomg2.jpg" alt="Ocean"><p>Lake‑View Rooms</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🍽️ Food & Dining</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/dining1.jpg" alt="Cuisine"><p>Dhe Puttu (Kochi)</p></div>
+        <div class="item"><img src="./gallery/food2.jpg" alt="Dining"><p>Palada Payasam</p></div>
+        <div class="item"><img src="./gallery/dinig2.avif" alt="Rustic"><p>Villa Maya (Thiruvananthapuram) </p></div>
+        <div class="item"><img src="./gallery/dishchi1.jpg" alt="Natural"><p>Thalassery Biryani</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🧗 Adventures & Activities</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/trekin1.jpg" alt="Hiking"><p>Trekking in the Western Ghats</p></div>
+        <div class="item"><img src="./gallery/scubadiv2.jpg" alt="Water"><p> Scuba Diving </p></div>
+        <div class="item"><img src="./gallery/parsgootin.jpg" alt="Wildlife"><p> Paragliding in Vagamon</p></div>
+        <div class="item"><img src="./gallery/waterboting.jpg" alt="Camping"><p>White‑Water Rafting</p></div>
+      </div>
+    </section>
+           <!-- Jaypur section -->
+    
+  </div>
+  <button class="place-button" onclick="togglePlace('jay')">Jaipur</button>
+  <section class="gallery-section">
+   <div class="gallery">
+        <div class="item"><img src="./gallery/amberfor.jpg" alt="Suite Room"><p> Amber Fort</p></div>
+        <div class="item"><img src="./gallery/jaypur2.jpg" alt="Pool"><p>Jantar Mantar</p></div>
+        <div class="item"><img src="./gallery/jaypur3.jpg" alt="Bathroom"><p>Hawa Mahal </p></div>
+        <div class="item"><img src="./gallery/jaypur4.jpg" alt="Ocean"><p>Kanak Vrindavan Valley</p></div>
+      </div>
+    </section>
+
+  <!-- 🔸 Jaypur Section (Hidden initially) -->
+  <div id="jay" class="place-section">
+    
+    <!-- ✨ Discover Preview -->
+    <section class="place-preview">
+      <h2>✨ Discover Jaipur</h2>
+      <p>Hotels, Food, Adventures & Local Attractions await you!</p>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/jayhot1.jpg" alt="Suite Room"><p>The Raj Palace</p></div>
+         <div class="item"><img src="./gallery/jaypfood1.jpg" alt="Cuisine"><p>Dal Baati Churma</p></div>
+        <div class="item"> <img src="./gallery/jayadva1.avif" alt="Hiking"><p>Rock Climbing, Rappelling</p></div>
+      </div>
+      
+      <div class="see-more">⬇ Scroll down to see more</div>
+    </section>
+
+    <!-- 🔻 Full Gallery -->
+    <section class="gallery-section">
+      <h2>🏨 Hotels & Rooms</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/jayhot1.jpg" alt="Suite Room"><p>The Raj Palace</p></div>
+        <div class="item"><img src="./gallery/jayroo1.jpg" alt="Pool"><p>Luxurious suite featuring living</p></div>
+        <div class="item"><img src="./gallery/hoteljay.jpg" alt="Bathroom"><p> Rambagh Palace</p></div>
+        <div class="item"><img src="./gallery/finalroo.avif" alt="Ocean"><p>Grand Royal Suite</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🍽️ Food & Dining</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/jaypfood1.jpg" alt="Cuisine"><p>Dal Baati Churma</p></div>
+        <div class="item"><img src="./gallery/jaypfood3.jpg" alt="Dining"><p>Suvarna Mahal</p></div>
+        <div class="item"><img src="./gallery/jaypfood2.jpg" alt="Rustic"><p>Laal Maas</p></div>
+        <div class="item"><img src="./gallery/jaypfood4.avif" alt="Natural"><p>Baradari (City Palace)</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🧗 Adventures & Activities</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/jayadva1.avif" alt="Hiking"><p>Rock Climbing, Rappelling</p></div>
+        <div class="item"><img src="./gallery/jayadva2.jpg" alt="Water"><p>ATV Riding</p></div>
+        <div class="item"><img src="./gallery/jayadva3.jpg" alt="Wildlife"><p>Camel Safaris</p></div>
+        <div class="item"><img src="./gallery/jayadvan4.jpg" alt="Camping"><p>Trekking & Cycling</p></div>
+      </div>
+    </section>
+
+    
+  </div>
+    <!-- Jaypur section -->
+    
+  </div>
+  <button class="place-button" onclick="togglePlace('uti')">Ooty</button>
+  <section class="gallery-section">
+   <div class="gallery">
+        <div class="item"><img src="./gallery/oot1.jpg" alt="Suite Room"><p>Nature & Scenic Spots</p></div>
+        <div class="item"><img src="./gallery/oot2.jpg" alt="Pool"><p>Gardens & Parks</p></div>
+        <div class="item"><img src="./gallery/oot3.jpg" alt="Bathroom"><p>Colonial Heritage </p></div>
+        <div class="item"><img src="./gallery/oot4.jpg" alt="Ocean"><p>Offbeat Destinations</p></div>
+      </div>
+    </section>
+
+  <!-- 🔸 Jaypur Section (Hidden initially) -->
+  <div id="uti" class="place-section">
+    
+    <!-- ✨ Discover Preview -->
+    <section class="place-preview">
+      <h2>✨ Discover Ooty</h2>
+      <p>Hotels, Food, Adventures & Local Attractions await you!</p>
+      <div class="gallery">
+         <div class="item"><img src="./gallery/ootho1.jpg" alt="Suite Room"><p>Savoy</p></div>
+         <div class="item"><img src="./gallery/ootfood1.jpg" alt="Cuisine"><p>Ooty Varkey </p></div>
+          <div class="item"><img src="./gallery/ootadv3.jpg" alt="Wildlife"><p>Trekking & Hiking</p></div>
+      </div>
+      
+      <div class="see-more">⬇ Scroll down to see more</div>
+    </section>
+
+    <!-- 🔻 Full Gallery -->
+    <section class="gallery-section">
+      <h2>🏨 Hotels & Rooms</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/ootho1.jpg" alt="Suite Room"><p>Savoy</p></div>
+        <div class="item"><img src="./gallery/ootroo2.jpg" alt="Pool"><p>Luxurious suite featuring living</p></div>
+        <div class="item"><img src="./gallery/ootho2.jpg" alt="Bathroom"><p> Accord Highland Hotel</p></div>
+        <div class="item"><img src="./gallery/ootroo1.jpg" alt="Ocean"><p>Perched atop a hill</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🍽️ Food & Dining</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/ootfood1.jpg" alt="Cuisine"><p>Ooty Varkey </p></div>
+        <div class="item"><img src="./gallery/ootfood3.jpg" alt="Dining"><p>Earl’s Secret</p></div>
+        <div class="item"><img src="./gallery/ootfood2.jpg" alt="Rustic"><p>Bisi Bele Bath </p></div>
+        <div class="item"><img src="./gallery/ootfood4.jpg" alt="Natural"><p>Cliff Top International</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>🧗 Adventures & Activities</h2>
+      <div class="gallery">
+        <div class="item"><img src="./gallery/ootadv1.jpg" alt="Hiking"><p>Eagles Dare Adventure Park</p></div>
+        <div class="item"><img src="./gallery/ootadv2.jpg" alt="Water"><p>Zipline & Sky Bridge Combos </p></div>
+        <div class="item"><img src="./gallery/ootadv3.jpg" alt="Wildlife"><p>Trekking & Hiking</p></div>
+        <div class="item"><img src="./gallery/ootadv4.jpg" alt="Camping"><p>Angling & Boating </p></div>
+      </div>
+    </section>
+
+    
+  </div>
+
+  <!-- ✅ JavaScript to Toggle -->
+  <script>
+    function togglePlace(placeId) {
+      const section = document.getElementById(placeId);
+      section.style.display = (section.style.display === "block") ? "none" : "block";
+      // Scroll into view if just shown
+      if (section.style.display === "block") {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  </script>
+
+</body>
+</html>

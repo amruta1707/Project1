@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Tourist Site</title>
+  <link rel="stylesheet" href="I:\projet HTML\stylecontact.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li><a href="I:\projet HTML\home.html">Home</a></li>
+        <li><a href="I:\projet HTML\destinationp.html">Destinations</a></li>
+        <li><a href="I:\projet HTML\aboutusp.html">About</a></li>
+        <li><a href="I:\projet HTML\galler.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="I:\projet HTML\bolgpa.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p><strong>Tourist Information Center</strong></p>
+      <p>123 Explore Lane, Pune, India</p>
+      <p><strong>Email:</strong> info@touristwebsite.com</p>
+      <p><strong>Phone:</strong> +91 234 567 890</p>
+
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Map Embed -->
+  <section>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXXX!2dLONG!3dLAT!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xXXXXXXXXXXXXX!2sTourist+Center!5e0!3m2!1sen!2sin!4v00000000000"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+
+</body>
+</html>
